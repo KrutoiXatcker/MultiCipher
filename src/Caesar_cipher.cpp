@@ -1,7 +1,7 @@
 #include "Caesar_cipher.h"
 #include <iostream>
 #include <fstream>
-#include <stdexcept> // Для обработки исключений
+#include <stdexcept> 
 
 void Caesar_cipher::encryptFile(const std::string& inputFilePath, const std::string& outputFilePath) {
     std::cout << "Начало шифрования файла шифром Цезаря" << std::endl;
